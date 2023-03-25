@@ -13,6 +13,7 @@
      height: auto;
      width: auto;
      flex-grow: 1;
+     flex: 1;
      margin: 5px;
      display: flex;
 }
@@ -26,4 +27,27 @@
     padding: 10px;
     font-size: 50px;
     margin: 0px;
+}
+
+.first {
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.second {
+    justify-content: space-between;
+}
+
+.third {
+    justify-content: space-between;
+}
+
+.fourth {
+    justify-content: space-between;
+}
+
+.fifth {
+    justify-content: space-between;
 }
